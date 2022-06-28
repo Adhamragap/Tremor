@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.10)
+  - youtube-ios-player-helper (1.0.3)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  youtube-ios-player-helper: 0185c57db23c80d63d6ca11251d110abb8a4ca61
+
+PODFILE CHECKSUM: 007307ba42f1e08e7b90af32b5561ce6640fdff1
+
+COCOAPODS: 1.11.2

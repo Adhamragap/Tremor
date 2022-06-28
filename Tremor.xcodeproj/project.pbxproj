@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2C6B78286A84FB00C1C08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B77286A84FB00C1C08C /* AppDelegate.swift */; };
+		4F2C6B7A286A84FB00C1C08C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B79286A84FB00C1C08C /* SceneDelegate.swift */; };
+		4F2C6B7C286A84FB00C1C08C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B7B286A84FB00C1C08C /* ViewController.swift */; };
+		4F2C6B7F286A84FB00C1C08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C6B7D286A84FB00C1C08C /* Main.storyboard */; };
+		4F2C6B82286A84FB00C1C08C /* Tremor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B80286A84FB00C1C08C /* Tremor.xcdatamodeld */; };
+		4F2C6B84286A850100C1C08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C6B83286A850100C1C08C /* Assets.xcassets */; };
+		4F2C6B87286A850100C1C08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2C6B85286A850100C1C08C /* LaunchScreen.storyboard */; };
+		4F2C6B8F286A8D6100C1C08C /* LoginPatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B8E286A8D6100C1C08C /* LoginPatientVC.swift */; };
+		4F2C6B93286A916800C1C08C /* DoctorLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B92286A916800C1C08C /* DoctorLoginViewController.swift */; };
+		4F2C6B95286A967A00C1C08C /* PatientRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B94286A967A00C1C08C /* PatientRegisterViewController.swift */; };
+		4F2C6B97286A9B0A00C1C08C /* DoctorRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B96286A9B0A00C1C08C /* DoctorRegisterViewController.swift */; };
+		4F2C6B99286AA27F00C1C08C /* ReadingsPateintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B98286AA27F00C1C08C /* ReadingsPateintViewController.swift */; };
+		4F2C6B9B286AA7C200C1C08C /* userTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B9A286AA7C200C1C08C /* userTabBarViewController.swift */; };
+		4F2C6B9D286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6B9C286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift */; };
+		4F2C6BA1286AACEC00C1C08C /* ExcersisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BA0286AACEC00C1C08C /* ExcersisesViewController.swift */; };
+		4F2C6BA3286AB2C000C1C08C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BA2286AB2C000C1C08C /* InfoViewController.swift */; };
+		4F2C6BA5286AB35300C1C08C /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BA4286AB35300C1C08C /* InfoCell.swift */; };
+		4F2C6BA7286AB84D00C1C08C /* ContactDoctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BA6286AB84D00C1C08C /* ContactDoctorVC.swift */; };
+		4F2C6BA9286ABD4000C1C08C /* DoctorForPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BA8286ABD4000C1C08C /* DoctorForPatientViewController.swift */; };
+		4F2C6BAB286AC0A100C1C08C /* OldPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BAA286AC0A100C1C08C /* OldPatientViewController.swift */; };
+		4F2C6BAD286AC35E00C1C08C /* NewPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BAC286AC35E00C1C08C /* NewPatientViewController.swift */; };
+		4F2C6BAF286AC53900C1C08C /* ReadingsDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C6BAE286AC53900C1C08C /* ReadingsDoctorViewController.swift */; };
+		89411FF7C6234BBFC31B1134 /* Pods_Tremor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58474B4EA33269CA044E1B72 /* Pods_Tremor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44E0FB2B13FE1856DA053401 /* Pods-Tremor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor.debug.xcconfig"; path = "Target Support Files/Pods-Tremor/Pods-Tremor.debug.xcconfig"; sourceTree = "<group>"; };
+		4F2C6B74286A84FB00C1C08C /* Tremor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tremor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2C6B77286A84FB00C1C08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F2C6B79286A84FB00C1C08C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F2C6B7B286A84FB00C1C08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F2C6B7E286A84FB00C1C08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F2C6B81286A84FB00C1C08C /* Tremor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tremor.xcdatamodel; sourceTree = "<group>"; };
+		4F2C6B83286A850100C1C08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2C6B86286A850100C1C08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F2C6B88286A850100C1C08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2C6B8E286A8D6100C1C08C /* LoginPatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPatientVC.swift; sourceTree = "<group>"; };
+		4F2C6B92286A916800C1C08C /* DoctorLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLoginViewController.swift; sourceTree = "<group>"; };
+		4F2C6B94286A967A00C1C08C /* PatientRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientRegisterViewController.swift; sourceTree = "<group>"; };
+		4F2C6B96286A9B0A00C1C08C /* DoctorRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRegisterViewController.swift; sourceTree = "<group>"; };
+		4F2C6B98286AA27F00C1C08C /* ReadingsPateintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsPateintViewController.swift; sourceTree = "<group>"; };
+		4F2C6B9A286AA7C200C1C08C /* userTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userTabBarViewController.swift; sourceTree = "<group>"; };
+		4F2C6B9C286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcercisesCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F2C6BA0286AACEC00C1C08C /* ExcersisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcersisesViewController.swift; sourceTree = "<group>"; };
+		4F2C6BA2286AB2C000C1C08C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4F2C6BA4286AB35300C1C08C /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		4F2C6BA6286AB84D00C1C08C /* ContactDoctorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDoctorVC.swift; sourceTree = "<group>"; };
+		4F2C6BA8286ABD4000C1C08C /* DoctorForPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorForPatientViewController.swift; sourceTree = "<group>"; };
+		4F2C6BAA286AC0A100C1C08C /* OldPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldPatientViewController.swift; sourceTree = "<group>"; };
+		4F2C6BAC286AC35E00C1C08C /* NewPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPatientViewController.swift; sourceTree = "<group>"; };
+		4F2C6BAE286AC53900C1C08C /* ReadingsDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsDoctorViewController.swift; sourceTree = "<group>"; };
+		568BDF04290C82D84C4E8643 /* Pods-Tremor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor.release.xcconfig"; path = "Target Support Files/Pods-Tremor/Pods-Tremor.release.xcconfig"; sourceTree = "<group>"; };
+		58474B4EA33269CA044E1B72 /* Pods_Tremor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F2C6B71286A84FB00C1C08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89411FF7C6234BBFC31B1134 /* Pods_Tremor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAF0BD913500CD6A5C05055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58474B4EA33269CA044E1B72 /* Pods_Tremor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F2C6B6B286A84FB00C1C08C = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B76286A84FB00C1C08C /* Tremor */,
+				4F2C6B75286A84FB00C1C08C /* Products */,
+				EFDFC9741B780D6879890407 /* Pods */,
+				2DAF0BD913500CD6A5C05055 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F2C6B75286A84FB00C1C08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B74286A84FB00C1C08C /* Tremor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F2C6B76286A84FB00C1C08C /* Tremor */ = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B77286A84FB00C1C08C /* AppDelegate.swift */,
+				4F2C6B79286A84FB00C1C08C /* SceneDelegate.swift */,
+				4F2C6B7B286A84FB00C1C08C /* ViewController.swift */,
+				4F2C6B7D286A84FB00C1C08C /* Main.storyboard */,
+				4F2C6BAE286AC53900C1C08C /* ReadingsDoctorViewController.swift */,
+				4F2C6BAC286AC35E00C1C08C /* NewPatientViewController.swift */,
+				4F2C6BAA286AC0A100C1C08C /* OldPatientViewController.swift */,
+				4F2C6BA8286ABD4000C1C08C /* DoctorForPatientViewController.swift */,
+				4F2C6BA6286AB84D00C1C08C /* ContactDoctorVC.swift */,
+				4F2C6BA4286AB35300C1C08C /* InfoCell.swift */,
+				4F2C6BA2286AB2C000C1C08C /* InfoViewController.swift */,
+				4F2C6BA0286AACEC00C1C08C /* ExcersisesViewController.swift */,
+				4F2C6B9C286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift */,
+				4F2C6B9A286AA7C200C1C08C /* userTabBarViewController.swift */,
+				4F2C6B98286AA27F00C1C08C /* ReadingsPateintViewController.swift */,
+				4F2C6B96286A9B0A00C1C08C /* DoctorRegisterViewController.swift */,
+				4F2C6B94286A967A00C1C08C /* PatientRegisterViewController.swift */,
+				4F2C6B92286A916800C1C08C /* DoctorLoginViewController.swift */,
+				4F2C6B8E286A8D6100C1C08C /* LoginPatientVC.swift */,
+				4F2C6B83286A850100C1C08C /* Assets.xcassets */,
+				4F2C6B85286A850100C1C08C /* LaunchScreen.storyboard */,
+				4F2C6B88286A850100C1C08C /* Info.plist */,
+				4F2C6B80286A84FB00C1C08C /* Tremor.xcdatamodeld */,
+			);
+			path = Tremor;
+			sourceTree = "<group>";
+		};
+		EFDFC9741B780D6879890407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E0FB2B13FE1856DA053401 /* Pods-Tremor.debug.xcconfig */,
+				568BDF04290C82D84C4E8643 /* Pods-Tremor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F2C6B73286A84FB00C1C08C /* Tremor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2C6B8B286A850100C1C08C /* Build configuration list for PBXNativeTarget "Tremor" */;
+			buildPhases = (
+				0BFB8192E943E88BB8D0177F /* [CP] Check Pods Manifest.lock */,
+				4F2C6B70286A84FB00C1C08C /* Sources */,
+				4F2C6B71286A84FB00C1C08C /* Frameworks */,
+				4F2C6B72286A84FB00C1C08C /* Resources */,
+				065A8A7511B701F9BFF54E82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tremor;
+			productName = Tremor;
+			productReference = 4F2C6B74286A84FB00C1C08C /* Tremor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2C6B6C286A84FB00C1C08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4F2C6B73286A84FB00C1C08C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F2C6B6F286A84FB00C1C08C /* Build configuration list for PBXProject "Tremor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2C6B6B286A84FB00C1C08C;
+			productRefGroup = 4F2C6B75286A84FB00C1C08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2C6B73286A84FB00C1C08C /* Tremor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F2C6B72286A84FB00C1C08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2C6B87286A850100C1C08C /* LaunchScreen.storyboard in Resources */,
+				4F2C6B84286A850100C1C08C /* Assets.xcassets in Resources */,
+				4F2C6B7F286A84FB00C1C08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065A8A7511B701F9BFF54E82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BFB8192E943E88BB8D0177F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tremor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2C6B70286A84FB00C1C08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2C6B82286A84FB00C1C08C /* Tremor.xcdatamodeld in Sources */,
+				4F2C6BAD286AC35E00C1C08C /* NewPatientViewController.swift in Sources */,
+				4F2C6B93286A916800C1C08C /* DoctorLoginViewController.swift in Sources */,
+				4F2C6B8F286A8D6100C1C08C /* LoginPatientVC.swift in Sources */,
+				4F2C6B95286A967A00C1C08C /* PatientRegisterViewController.swift in Sources */,
+				4F2C6B97286A9B0A00C1C08C /* DoctorRegisterViewController.swift in Sources */,
+				4F2C6BA9286ABD4000C1C08C /* DoctorForPatientViewController.swift in Sources */,
+				4F2C6B7C286A84FB00C1C08C /* ViewController.swift in Sources */,
+				4F2C6BAB286AC0A100C1C08C /* OldPatientViewController.swift in Sources */,
+				4F2C6B78286A84FB00C1C08C /* AppDelegate.swift in Sources */,
+				4F2C6B9B286AA7C200C1C08C /* userTabBarViewController.swift in Sources */,
+				4F2C6B99286AA27F00C1C08C /* ReadingsPateintViewController.swift in Sources */,
+				4F2C6BA7286AB84D00C1C08C /* ContactDoctorVC.swift in Sources */,
+				4F2C6BA3286AB2C000C1C08C /* InfoViewController.swift in Sources */,
+				4F2C6B7A286A84FB00C1C08C /* SceneDelegate.swift in Sources */,
+				4F2C6BA1286AACEC00C1C08C /* ExcersisesViewController.swift in Sources */,
+				4F2C6BAF286AC53900C1C08C /* ReadingsDoctorViewController.swift in Sources */,
+				4F2C6B9D286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift in Sources */,
+				4F2C6BA5286AB35300C1C08C /* InfoCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F2C6B7D286A84FB00C1C08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2C6B7E286A84FB00C1C08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F2C6B85286A850100C1C08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F2C6B86286A850100C1C08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F2C6B89286A850100C1C08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F2C6B8A286A850100C1C08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F2C6B8C286A850100C1C08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E0FB2B13FE1856DA053401 /* Pods-Tremor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WP27S325;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tremor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adham-ragap.Tremor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F2C6B8D286A850100C1C08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 568BDF04290C82D84C4E8643 /* Pods-Tremor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25WP27S325;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tremor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adham-ragap.Tremor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2C6B6F286A84FB00C1C08C /* Build configuration list for PBXProject "Tremor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2C6B89286A850100C1C08C /* Debug */,
+				4F2C6B8A286A850100C1C08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2C6B8B286A850100C1C08C /* Build configuration list for PBXNativeTarget "Tremor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2C6B8C286A850100C1C08C /* Debug */,
+				4F2C6B8D286A850100C1C08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F2C6B80286A84FB00C1C08C /* Tremor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F2C6B81286A84FB00C1C08C /* Tremor.xcdatamodel */,
+			);
+			currentVersion = 4F2C6B81286A84FB00C1C08C /* Tremor.xcdatamodel */;
+			path = Tremor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F2C6B6C286A84FB00C1C08C /* Project object */;
+}
