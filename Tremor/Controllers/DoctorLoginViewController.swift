@@ -32,7 +32,7 @@ class DoctorLoginViewController: UIViewController {
         }
     }
     func popupAlert(message:String){
-        let alert = UIAlertController(title: "Oops", message: message, preferredStyle: .alert)
+        let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
@@ -46,12 +46,14 @@ class DoctorLoginViewController: UIViewController {
             popupAlert(message: "please enter your paswored")
             return
         }
-//        if userName == "Adham", password == "12345" {
-//            if let vc = storyboard?.instantiateViewController(withIdentifier: "DoctorForPatientVC"){
-//                present(vc, animated: true, completion: nil)
-//            }
-//
-//        }
+        if userName == "Adham", password == "12345" {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "DoctorForPatientViewController"){
+                present(vc, animated: true, completion: nil)
+            }else {
+                popupAlert(message: "wrong passwed or user name")
+            }
+
+        }
 
     }
     

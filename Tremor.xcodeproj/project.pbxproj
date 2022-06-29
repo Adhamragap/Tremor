@@ -82,6 +82,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4F18469D286BB60A009093E8 /* supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B77286A84FB00C1C08C /* AppDelegate.swift */,
+				4F2C6B79286A84FB00C1C08C /* SceneDelegate.swift */,
+			);
+			path = "supported Files";
+			sourceTree = "<group>";
+		};
+		4F18469F286BC7D8009093E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F1846A0286BC7E8009093E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B85286A850100C1C08C /* LaunchScreen.storyboard */,
+				4F2C6B7D286A84FB00C1C08C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4F1846A1286BC7F8009093E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F2C6B7B286A84FB00C1C08C /* ViewController.swift */,
+				4F2C6BAE286AC53900C1C08C /* ReadingsDoctorViewController.swift */,
+				4F2C6BAC286AC35E00C1C08C /* NewPatientViewController.swift */,
+				4F2C6BAA286AC0A100C1C08C /* OldPatientViewController.swift */,
+				4F2C6BA8286ABD4000C1C08C /* DoctorForPatientViewController.swift */,
+				4F2C6BA6286AB84D00C1C08C /* ContactDoctorVC.swift */,
+				4F2C6BA4286AB35300C1C08C /* InfoCell.swift */,
+				4F2C6BA2286AB2C000C1C08C /* InfoViewController.swift */,
+				4F2C6BA0286AACEC00C1C08C /* ExcersisesViewController.swift */,
+				4F2C6B9C286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift */,
+				4F2C6B9A286AA7C200C1C08C /* userTabBarViewController.swift */,
+				4F2C6B98286AA27F00C1C08C /* ReadingsPateintViewController.swift */,
+				4F2C6B96286A9B0A00C1C08C /* DoctorRegisterViewController.swift */,
+				4F2C6B94286A967A00C1C08C /* PatientRegisterViewController.swift */,
+				4F2C6B92286A916800C1C08C /* DoctorLoginViewController.swift */,
+				4F2C6B8E286A8D6100C1C08C /* LoginPatientVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4F2C6B6B286A84FB00C1C08C = {
 			isa = PBXGroup;
 			children = (
@@ -103,27 +151,11 @@
 		4F2C6B76286A84FB00C1C08C /* Tremor */ = {
 			isa = PBXGroup;
 			children = (
-				4F2C6B77286A84FB00C1C08C /* AppDelegate.swift */,
-				4F2C6B79286A84FB00C1C08C /* SceneDelegate.swift */,
-				4F2C6B7B286A84FB00C1C08C /* ViewController.swift */,
-				4F2C6B7D286A84FB00C1C08C /* Main.storyboard */,
-				4F2C6BAE286AC53900C1C08C /* ReadingsDoctorViewController.swift */,
-				4F2C6BAC286AC35E00C1C08C /* NewPatientViewController.swift */,
-				4F2C6BAA286AC0A100C1C08C /* OldPatientViewController.swift */,
-				4F2C6BA8286ABD4000C1C08C /* DoctorForPatientViewController.swift */,
-				4F2C6BA6286AB84D00C1C08C /* ContactDoctorVC.swift */,
-				4F2C6BA4286AB35300C1C08C /* InfoCell.swift */,
-				4F2C6BA2286AB2C000C1C08C /* InfoViewController.swift */,
-				4F2C6BA0286AACEC00C1C08C /* ExcersisesViewController.swift */,
-				4F2C6B9C286AAC2E00C1C08C /* ExcercisesCollectionViewCell.swift */,
-				4F2C6B9A286AA7C200C1C08C /* userTabBarViewController.swift */,
-				4F2C6B98286AA27F00C1C08C /* ReadingsPateintViewController.swift */,
-				4F2C6B96286A9B0A00C1C08C /* DoctorRegisterViewController.swift */,
-				4F2C6B94286A967A00C1C08C /* PatientRegisterViewController.swift */,
-				4F2C6B92286A916800C1C08C /* DoctorLoginViewController.swift */,
-				4F2C6B8E286A8D6100C1C08C /* LoginPatientVC.swift */,
+				4F1846A1286BC7F8009093E8 /* Controllers */,
+				4F1846A0286BC7E8009093E8 /* Views */,
+				4F18469F286BC7D8009093E8 /* Model */,
+				4F18469D286BB60A009093E8 /* supported Files */,
 				4F2C6B83286A850100C1C08C /* Assets.xcassets */,
-				4F2C6B85286A850100C1C08C /* LaunchScreen.storyboard */,
 				4F2C6B88286A850100C1C08C /* Info.plist */,
 				4F2C6B80286A84FB00C1C08C /* Tremor.xcdatamodeld */,
 			);

@@ -28,51 +28,44 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="2So-EJ-2TC">
-                                <rect key="frame" x="20" y="427" width="374" height="40"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-Xv-CeZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="176" height="40"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Doctor">
-                                            <color key="titleColor" red="0.35949280859999999" green="0.6922516823" blue="0.96082144979999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="pqP-2g-fKD" kind="show" id="qd0-jo-gPC"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4j3-pW-wZR">
-                                        <rect key="frame" x="198" y="0.0" width="176" height="40"/>
-                                        <color key="backgroundColor" red="0.35949280859999999" green="0.6922516823" blue="0.96082144979999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="patient">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="oOC-Cv-bhL" kind="show" id="k5I-Fy-zQH"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4j3-pW-wZR">
+                                <rect key="frame" x="225" y="422" width="169" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.35949280859999999" green="0.6922516823" blue="0.96082144979999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="patient">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oOC-Cv-bhL" kind="show" id="k5I-Fy-zQH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pU-Xv-CeZ">
+                                <rect key="frame" x="20" y="422" width="179" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Doctor">
+                                    <color key="titleColor" red="0.35949280859999999" green="0.6922516823" blue="0.96082144979999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pqP-2g-fKD" kind="show" id="qd0-jo-gPC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="lQH-XN-84F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0a5-yy-Mlt"/>
                             <constraint firstItem="mmh-Ty-QGT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BXH-6w-gUF"/>
-                            <constraint firstItem="2So-EJ-2TC" firstAttribute="height" secondItem="lQH-XN-84F" secondAttribute="height" multiplier="0.045" id="FQ7-nB-y3B"/>
                             <constraint firstItem="mmh-Ty-QGT" firstAttribute="height" secondItem="lQH-XN-84F" secondAttribute="height" multiplier="0.15" id="G31-pn-tWT"/>
-                            <constraint firstItem="2So-EJ-2TC" firstAttribute="top" secondItem="mmh-Ty-QGT" secondAttribute="bottom" constant="164.5" id="LnS-YQ-qlj"/>
                             <constraint firstItem="mmh-Ty-QGT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="PXu-6w-JRo"/>
                             <constraint firstItem="lQH-XN-84F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XpE-XI-T0l"/>
                             <constraint firstAttribute="bottom" secondItem="lQH-XN-84F" secondAttribute="bottom" id="fnD-h4-cWj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mmh-Ty-QGT" secondAttribute="trailing" constant="20" id="kPv-pX-fgw"/>
                             <constraint firstItem="lQH-XN-84F" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="uqj-UM-O9o"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2So-EJ-2TC" secondAttribute="trailing" constant="20" id="vnh-rE-rEm"/>
-                            <constraint firstItem="2So-EJ-2TC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yhq-qq-h0e"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LDr-iL-Is5"/>
@@ -89,7 +82,7 @@
         <!--Doctor Login View Controller-->
         <scene sceneID="0OG-nl-Yws">
             <objects>
-                <viewController storyboardIdentifier="DoctorLoginViewController" modalTransitionStyle="crossDissolve" id="pqP-2g-fKD" customClass="DoctorLoginViewController" customModule="Tremor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DoctorLoginViewController" modalTransitionStyle="flipHorizontal" id="pqP-2g-fKD" customClass="DoctorLoginViewController" customModule="Tremor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ehV-Ua-O4x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,7 +135,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jbw-Ip-04W">
                                 <rect key="frame" x="20" y="440.5" width="374" height="35.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IvZ-Jy-IMH"/>
@@ -399,9 +392,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pv9-Rp-yY0">
-                                        <rect key="frame" x="292.5" y="10" width="71.5" height="31"/>
+                                        <rect key="frame" x="265" y="10" width="99" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right.fill" catalog="system" title="Exit"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right.fill" catalog="system" title="Log Out">
+                                            <color key="baseForegroundColor" red="0.21497663859999999" green="0.59941933670000003" blue="0.95691293479999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="logOutPatient:" destination="9Mc-Du-aVC" eventType="touchUpInside" id="vDx-9W-xeE"/>
                                         </connections>
@@ -583,7 +578,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FHb-aY-JWc">
                                 <rect key="frame" x="10" y="54" width="394" height="769"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.21497663859999999" green="0.59941933670000003" blue="0.95691293479999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="304" id="4Ua-7t-yga" customClass="InfoCell" customModule="Tremor" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="394" height="304"/>
@@ -630,7 +625,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RxI-l5-kBx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.21497663859999999" green="0.59941933670000003" blue="0.95691293479999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="RxI-l5-kBx" firstAttribute="trailing" secondItem="FHb-aY-JWc" secondAttribute="trailing" constant="10" id="0d7-Yw-Fae"/>
                             <constraint firstItem="FHb-aY-JWc" firstAttribute="leading" secondItem="RxI-l5-kBx" secondAttribute="leading" constant="10" id="2RV-mg-g74"/>
@@ -797,7 +792,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70x-Dd-XwO">
                                 <rect key="frame" x="20" y="196" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2m-Zy-FZK">
                                 <rect key="frame" x="20" y="234.5" width="374" height="26.5"/>
@@ -922,7 +917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WcE-Ry-H9m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1972" y="1645"/>
+            <point key="canvasLocation" x="1893" y="1631"/>
         </scene>
         <!--Doctor For Patient View Controller-->
         <scene sceneID="i01-Fx-dAR">
@@ -1056,7 +1051,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="48k-ti-RLA">
                                 <rect key="frame" x="20" y="328.5" width="374" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="patient gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2a-1i-xqg">
                                 <rect key="frame" x="20" y="395" width="374" height="26.5"/>
@@ -1239,7 +1234,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patientLogin" translatesAutoresizingMaskIntoConstraints="NO" id="GR6-cA-e7e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patientLogin" translatesAutoresizingMaskIntoConstraints="NO" id="GR6-cA-e7e">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xL-0A-3SC">
@@ -1257,7 +1252,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jyD-2Z-tlH">
                                 <rect key="frame" x="20" y="470.5" width="374" height="35.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZ5-HS-s4T">
                                 <rect key="frame" x="20" y="752.5" width="374" height="29"/>
@@ -1371,9 +1366,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fam-1z-43K">
-                                        <rect key="frame" x="292.5" y="10" width="71.5" height="31"/>
+                                        <rect key="frame" x="265" y="10" width="99" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right.fill" catalog="system" title="Exit"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right.fill" catalog="system" title="Log Out">
+                                            <color key="baseForegroundColor" red="0.21497663859999999" green="0.59941933670000003" blue="0.95691293479999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="logOutDoctor:" destination="I5v-fU-ge8" eventType="touchUpInside" id="uGm-lj-hYM"/>
                                         </connections>
